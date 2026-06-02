@@ -1,4 +1,4 @@
-# iconsaiFiscalShowCase
+# fiscal
 
 Página showcase do **Icons.ai · Fiscal** — inteligência fiscal sobre emendas, partidos e gastos públicos.
 
@@ -18,8 +18,8 @@ npm run dev
 ## Deploy
 
 1. `npm run build`
-2. `rsync .next/standalone/ .next/static/ public/ root@<droplet>:/opt/iconsai-fiscal-showcase/app/ --delete`
-3. systemd unit + Caddy `icon.iconsai.ai/fiscal/*` → `127.0.0.1:3106/fiscal/*`
+2. `rsync .next/standalone/ .next/static/ public/ root@<droplet>:/opt/fiscal/app/ --delete`
+3. systemd unit `fiscal.service` + Caddy `icon.iconsai.ai/fiscal/*` → `127.0.0.1:3106/fiscal/*`
 
 ## Cenas (5)
 
@@ -29,4 +29,4 @@ npm run dev
 4. Browser gallery — dossiê municipal
 5. Deck + export auditável
 
-CanopyIntro é compartilhado entre 6 ShowCases.
+CanopyIntro é compartilhado entre 6 showcases.
